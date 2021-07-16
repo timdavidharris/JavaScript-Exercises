@@ -6,6 +6,8 @@ const repeatString = function(string, runTimes) {
         return 'ERROR';
     } else if (runTimes === 0) {
         return '';
+    } else if (string === '') {
+        return '';
     } else {
     for (let i = 1; i < runTimes; i++){
         string += 'hey';
